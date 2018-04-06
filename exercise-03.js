@@ -3,7 +3,7 @@
   Goal 1: write a new function called showAge, that displays the name and age of a person
   Goal 2: call the function, with parameters for each of the three people
   Goal 3: commit the change and push the result back to your github fork
-  Next: Finished for now, check back later for more exercises
+  Next: Start Exercise 04
 */
 
 let anna = { name: 'Anna', age: 36 }
@@ -15,9 +15,9 @@ let names = people.map(person => person.name)
 
 
 function run() {
-  showRelation(anna.name, 'friends', beata.name)
-  showRelation(beata.name, 'co-workers', carrie.name)
-  showRelation(carrie.name, 'family', beata.name)
+  showRelation(anna.name, beata.name, 'friends')
+  showRelation(beata.name, carrie.name, 'co-workers')
+  showRelation(carrie.name, beata.name, 'family')
 
   console.log('I know the names of', names)
 }

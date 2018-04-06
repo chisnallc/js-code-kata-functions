@@ -3,11 +3,15 @@ A Javascript code kata for writing functions; designed to be run with node js.
 
 ## Goals
 
-The aim of this *code kata* is to practice refactoring javascript code using different types of Javascript functions.
+The goal of this *code kata* is to practice refactoring javascript code using different types of Javascript functions.
 
 >Kata (型 or 形 literally: "form"), a Japanese word, are detailed choreographed patterns of movements practiced either solo or in pairs.
 
 >A *Code Kata* is an exercise in programming which helps programmers hone their skills through practice and repetition.
+
+## Intended Audience
+
+This Code Kata is aimed at new JavaScript developers who are familiar with basic syntax but require a simple concrete exercise to practice with. This Code Kata can also be used by experienced JavaScript developers to see how fast they are at following instructions.
 
 ## Prerequisites
 
