@@ -15,9 +15,9 @@ let names = people.map(person => person.name)
 
 
 function run() {
-  showRelation(name1, 'friends', name3)
-  showRelation(name2, 'co-workers', name1)
-  showRelation(name3, 'family', name2)
+  showRelation(anna.name, 'friends', beata.name)
+  showRelation(beata.name, 'co-workers', carrie.name)
+  showRelation(carrie.name, 'family', beata.name)
 
   console.log('I know the names of', names)
 }
