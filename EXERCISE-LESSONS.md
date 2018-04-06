@@ -76,7 +76,7 @@ This exercise shows how you can identify a repeating pattern in your code, and w
 ## Exercise 03 - Write a new function called showAge
 
 - Goal 1: write a new function called showAge, that displays the name and age of a person
-- Goal 2: call the function, with parameters for each of the three people
+- Goal 2: call the showAge function three times, with parameters for each of the three people
 - Goal 3: commit the change and push the result back to your github fork
 
 The challenge here is to create and and call new function from scratch.

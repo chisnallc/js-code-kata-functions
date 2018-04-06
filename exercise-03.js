@@ -1,7 +1,7 @@
 /*
   JS Code Kata - Functions - Exercise 03
   Goal 1: write a new function called showAge, that displays the name and age of a person
-  Goal 2: call the function, with parameters for each of the three people
+  Goal 2: call the showAge function three times, with parameters for each of the three people
   Goal 3: commit the change and push the result back to your github fork
   Next: Start Exercise 04
 */
