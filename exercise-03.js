@@ -13,11 +13,10 @@ let carrie = { name: 'Carrie', age: 31 }
 let people = [anna, beata, carrie]
 let names = people.map(person => person.name)
 
-
 function run() {
   showRelation(anna.name, beata.name, 'friends')
   showRelation(beata.name, carrie.name, 'co-workers')
-  showRelation(carrie.name, beata.name, 'family')
+  showRelation(carrie.name, anna.name, 'family')
 
   console.log('I know the names of', names)
 }
