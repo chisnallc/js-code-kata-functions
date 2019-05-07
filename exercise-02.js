@@ -16,17 +16,16 @@ let names = people.map(person => person.name)
 
 function run() {
   // replace these with calls to showRelation
-  console.log('>', anna.name, 'is', 'friends', 'with', beata.name)
-  console.log('>', beata.name, 'is', 'co-workers', 'with', carrie.name)
-  console.log('>', carrie.name, 'is', 'family', 'with', anna.name)
+  showRelation(anna.name,beata.name, 'friends')
+  showRelation(beata.name,carrie.name, 'co-workers')
+  showRelation(carrie.name,anna.name,'family')
 
   console.log('I know the names of', names)
 }
 
 function showRelation(n1, n2, relation) {
-  // implement this bit
+  console.log(n1,'is', relation,'with', n2)
 }
 
 run()
 
-console.log('Edit this file to implement showRelation, and call the function three times') // and remove this line
